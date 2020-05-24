@@ -2,7 +2,7 @@
 Tradução do Keyboard.cpp US para ABNT2 utilizado no Arduino Leonardo/Arduino Pro Micro.
 
 <b>Substituir o Keyboard.cpp na pasta:
-C:\Program Files (x86)\Arduino\libraries\Keyboard\src\
+C:\Program Files (x86)\Arduino\libraries\Keyboard\src\ </b>
 
 <i>Alguns caracteres não funcionam, mas já quebra uns 2 galhos.</i> :satisfied:
 
