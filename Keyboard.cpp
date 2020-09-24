@@ -93,7 +93,7 @@ extern
 const uint8_t _asciimap[128] PROGMEM;
 /* 
 	* ------------ TRADUÇÃO DE TECLADO US PARA ABNT 2 -------------
-	* Adição do AltGr para o ? realizada peloa equipe "Duckuino"
+	* Adição do AltGr para o ? realizada pela equipe "Duckuino"
 	* Tradução dos caracteres US to ABNT2 realizada por Maxwell Oliveira
 	* A tradução não funciona para as teclas: \ | ç ´´
 	* Se quiser utilizar "" pressione o | (pipe)
@@ -144,7 +144,7 @@ const uint8_t _asciimap[128] =
 	0x21|SHIFT,    // $
 	0x22|SHIFT,    // %
 	0x24|SHIFT,    // &
-	0x35,          // ' abnt2
+	0x35,          // '
 	0x26|SHIFT,    // (
 	0x27|SHIFT,    // )
 	0x25|SHIFT,    // *
@@ -152,7 +152,7 @@ const uint8_t _asciimap[128] =
 	0x36,          // ,
 	0x2d,          // -
 	0x37,          // .
-	0x54,          // / abnt2
+	0x54,          // / 
 	0x27,          // 0
 	0x1e,          // 1
 	0x1f,          // 2
@@ -163,8 +163,8 @@ const uint8_t _asciimap[128] =
 	0x24,          // 7
 	0x25,          // 8
 	0x26,          // 9
-	0x38|SHIFT,      // : abnt2
-	0x38,          // ; abnt2
+	0x38|SHIFT,      // : 
+	0x38,          // ; 
 	0x36|SHIFT,      // <
 	0x2e,          // =
 	0x37|SHIFT,      // >
@@ -196,12 +196,12 @@ const uint8_t _asciimap[128] =
 	0x1b|SHIFT,      // X
 	0x1c|SHIFT,      // Y
 	0x1d|SHIFT,      // Z
-	0x30,          // [ abnt2
+	0x30,          // [ 
 	0x33,          // \ saindo ç
-	0x31,          // ] abnt2
-	0x34|SHIFT,    // ^ abnt2
+	0x31,          // ] 
+	0x34|SHIFT,    // ^ 
 	0x2d|SHIFT,    // _
-	0x2f|SHIFT,          // ` abnt2
+	0x2f|SHIFT,          // `
 	0x04,          // a
 	0x05,          // b
 	0x06,          // c
@@ -228,10 +228,10 @@ const uint8_t _asciimap[128] =
 	0x1b,          // x
 	0x1c,          // y
 	0x1d,          // z
-	0x30|SHIFT,    // { abnt2
+	0x30|SHIFT,    // { 
 	0x35|SHIFT,    // | saindo "
-	0x31|SHIFT,    // } abnt2
-	0x34,          // ~ abnt2
+	0x31|SHIFT,    // } 
+	0x34,          // ~ 
 	0				// DEL
 };
 
